@@ -1,0 +1,254 @@
+# Reading E:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile E:/UFSC/inep/pwm-hr-sawtooth/modelsim/pwm-hr-sawtooth.mpf
+# Loading project pwm-hr-sawtooth
+# Compile of hrpwm.vhd failed with 23 errors.
+# Compile of hrpwm.vhd was successful.
+do run.do
+# vsim -gui E:\UFSC\inep\pwm-hr-sawtooth\modelsim\pwm-hr-sawtooth.mpf 
+# Start time: 14:07:28 on Apr 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.hrpwm_tb(sim)
+# Loading work.hrpwm(rtl)
+# Loading work.counter(rtl)
+# Loading work.hrpwm_pll(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# Simulation Breakpoint: Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# MACRO ./run.do PAUSED at line 131
+add wave -position end  sim:/hrpwm_tb/clk0
+add wave -position end  sim:/hrpwm_tb/rst
+add wave -position end  sim:/hrpwm_tb/modulator
+add wave -position end  sim:/hrpwm_tb/saida
+add wave -position end  sim:/hrpwm_tb/counter
+restart -f
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+quit -sim
+# Compile of counter.vhd was successful.
+# Compile of hrpwm.vhd was successful.
+# Compile of hrpwm_pll.vhd was successful.
+# Compile of hrpwm_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of counter.vhd was successful.
+# Compile of hrpwm.vhd was successful.
+# Compile of hrpwm_pll.vhd was successful.
+# Compile of hrpwm_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+do run.do wave
+# vsim 
+# Start time: 14:51:56 on Apr 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.hrpwm_tb(sim)
+# Loading work.hrpwm(rtl)
+# Loading work.counter(rtl)
+# Loading work.hrpwm_pll(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# Error: Wave format file not found: "./wave.do"
+add wave -position end  sim:/hrpwm_tb/clk0
+add wave -position end  sim:/hrpwm_tb/rst
+add wave -position end  sim:/hrpwm_tb/modulator
+add wave -position end  sim:/hrpwm_tb/saida
+add wave -position end  sim:/hrpwm_tb/counter
+restart -f
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+add wave -position end  sim:/hrpwm_tb/DUT/pll/c3
+add wave -position end  sim:/hrpwm_tb/DUT/pll/areset
+add wave -position end  sim:/hrpwm_tb/DUT/pll/inclk0
+add wave -position end  sim:/hrpwm_tb/DUT/pll/c0
+add wave -position end  sim:/hrpwm_tb/DUT/pll/c1
+add wave -position end  sim:/hrpwm_tb/DUT/pll/c2
+add wave -position end  sim:/hrpwm_tb/DUT/pll/c3
+restart -f
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+force -freeze sim:/hrpwm_tb/DUT/pll/areset 1 0
+# ** Warning: (vsim-8780) Forcing /hrpwm_tb/rst as root of /hrpwm_tb/DUT/pll/areset specified in the force.
+# 
+run -all
+# ** Note: MAX 10 PLL was reset
+#    Time: 770 us  Iteration: 3  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+quit -sim
+# Reopencommand error: wrong # args: should be "::AbstractDataset::fromId id"
+# wrong # args: should be "::AbstractDataset::fromId id"
+#     (procedure "::AbstractDataset::fromId" body line 1)
+#     invoked from within
+# "AbstractDataset::fromId"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel AbstractDataset::fromId $id"
+#     (procedure "AbstractDatasetCreate" line 2)
+#     invoked from within
+# "AbstractDatasetCreate [$w cget -window_data]"
+#     (procedure "QStructure::ReOpenWindow" line 11)
+#     invoked from within
+# "QStructure::ReOpenWindow .main_pane.structure"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$windowobj cget -reopencommand] $windowobj "
+# Compile of hrpwm.vhd was successful.
+do run.do
+# vsim 
+# Start time: 15:01:34 on Apr 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.hrpwm_tb(sim)
+# Loading work.hrpwm(rtl)
+# Loading work.counter(rtl)
+# Loading work.hrpwm_pll(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# Simulation Breakpoint: Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# MACRO ./run.do PAUSED at line 131
+add wave -position end  sim:/hrpwm_tb/clk0
+add wave -position end  sim:/hrpwm_tb/rst
+add wave -position end  sim:/hrpwm_tb/modulator
+add wave -position end  sim:/hrpwm_tb/saida
+add wave -position end  sim:/hrpwm_tb/counter
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+quit -sim
+# Compile of hrpwm.vhd was successful.
+do run.do
+# vsim 
+# Start time: 15:20:51 on Apr 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.hrpwm_tb(sim)
+# Loading work.hrpwm(rtl)
+# Loading work.counter(rtl)
+# Loading work.hrpwm_pll(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# Simulation Breakpoint: Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# MACRO ./run.do PAUSED at line 131
+add wave -position end  sim:/hrpwm_tb/clk0
+add wave -position end  sim:/hrpwm_tb/rst
+add wave -position end  sim:/hrpwm_tb/modulator
+add wave -position end  sim:/hrpwm_tb/saida
+add wave -position end sim:/hrpwm_tb/DUT/pll/*
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hrpwm_tb/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /hrpwm_tb/DUT
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 2  Instance: /hrpwm_tb/DUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# Break in Process sequencer_proc at E:/UFSC/inep/pwm-hr-sawtooth/vhdl_tb/hrpwm_tb.vhd line 72
+# A time value could not be extracted from the current line
+quit -sim
+# End time: 15:28:45 on Apr 09,2022, Elapsed time: 0:07:54
+# Errors: 0, Warnings: 6

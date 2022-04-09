@@ -5,13 +5,12 @@ use ieee.math_real.all;
 
 entity hrpwm is 
   generic (
-    width: natural := 6;
     max_val: integer := 100
     );
   port (
     clock: in std_logic;  
     reset: in std_logic;
-    m: in std_logic_vector (width+2 downto 0);
+    m: in std_logic_vector (integer(ceil(log2(real(max_val))))+2 downto 0);
     s: out std_logic;
     cnt: out unsigned (integer(ceil(log2(real(max_val))))-1 downto 0)
     );
@@ -37,14 +36,15 @@ architecture rtl of hrpwm is
       c3 : out std_logic
 	    );
 	end component;
-
-
-  signal clk0, clk1, clk2, clk3, clk4, clk5, clk6, clk7: std_logic := '0';
+  
+  signal clk0, clk1, clk2, clk3: std_logic := '0';
+  signal clk4, clk5, clk6, clk7: std_logic := '0';
   signal CARRIER: unsigned (integer(ceil(log2(real(max_val))))-1 downto 0) := (others=>'0');
   signal SETD: std_logic := '0';
   signal CLRD: std_logic := '0';
   signal SET, RST: std_logic := '0';
-  signal CLR0, CLR1, CLR2, CLR3, CLR4, CLR5, CLR6, CLR7: std_logic := '0';
+  signal CLR0, CLR1, CLR2, CLR3: std_logic := '0';
+  signal CLR4, CLR5, CLR6, CLR7: std_logic := '0';
   signal OUT_PWM: std_logic := '0';
 
   begin
@@ -91,8 +91,8 @@ architecture rtl of hrpwm is
 
   -- ================================================== --
   -- Comparadores
-  SETD <= '1' when CARRIER = (to_unsigned(0, width+2)) else '0';
-  CLRD <= '1' when CARRIER = unsigned(m(width+2 downto 3)) else '0';
+  SETD <= '1' when CARRIER = (to_unsigned(0, integer(ceil(log2(real(max_val))))+2)) else '0';
+  CLRD <= '1' when CARRIER = unsigned(m(integer(ceil(log2(real(max_val))))+2 downto 3)) else '0';
   -- ================================================== --
 
 
